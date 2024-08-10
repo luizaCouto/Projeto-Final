@@ -1,0 +1,168 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+/* INFORMAÇÕES */
+.div-informacoes{
+    background-color: var(--transparente-roxo);
+    width: 60rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+}
+
+.div-informacoes > h2{
+    color: var(--branco);
+    margin-bottom: 2rem;
+}
+
+.div-informacoes > div > h2{
+    color: var(--branco);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.div-informacoes > div > p{
+    color: var(--roxo);
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+/* PERSONAGENS*/
+.div-personagens{
+    background-color: var(--transparente-roxo);
+    width: 60rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: var(--branco);
+}
+
+.div-personagens > h2{
+    margin-bottom: 2rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+    gap: 2rem;
+}
+
+.cards > div{
+    background-color: var(--roxo);
+    border-radius: 1.5rem;
+    width: 25rem;
+    height: 30rem;
+}
+
+.cards > div > h2{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards > div > img{
+    width: 100%;
+    height: 27rem;
+    object-fit: cover;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+/* BOTÃO */
+#abrir-modal{
+    border: none;
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 800;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* MODAL */
+.div-modal{
+    height: 60rem;
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: var(--branco);
+}
+
+.div-modal > div{
+    background-color: var(--transparente-escuro);
+    margin: 5rem auto;
+    width: 40rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-modal > div >h2{
+    margin-top: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+input{
+    border: none;
+    color: var(--roxo);
+    font-weight: 700;
+    padding-left: 0.5rem; 
+    border-radius: 2rem;
+    height: 1.5rem;
+    width: 19rem;
+    text-align: center;
+}
+
+input::placeholder{
+    border: none;
+    color: var(--roxo);
+    font-weight: 700;
+    text-align: center;
+}
+
+.input-arquivo{
+    border-radius: 0;
+    padding-left: 0;
+    color: var(--branco);
+}
+
+form > button{
+    justify-self: center;
+    color: var(--roxo);
+    font-weight: 700;
+    border: none;
+    width: 15rem;
+    height: 1.5rem;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.escondida{
+    display: none;
+}

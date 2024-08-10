@@ -1,0 +1,107 @@
+.banner{
+    color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagens/ilhadomedo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+    margin-bottom: 3rem;
+}
+
+.banner > h1{
+    margin-left: 2rem;
+}
+
+.banner > img{
+    width: 300px;
+    margin-right: 2rem;
+}
+
+/* MAIN */
+main{
+    margin-bottom: 3rem;
+    
+}
+
+main > .div-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+/* CARD */
+.card{
+    width: 21.25rem;
+    height: 30rem;
+
+}
+
+.cabecalho{
+    background-color: var(--roxo);
+    color: var(--branco);
+    border-radius: 2rem 2rem 0 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho > h2{
+    font-size: 2rem;
+    margin: 0 0.5rem 0 0.5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho > img{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.conteudo{
+    background-color: var(--claro-roxo);
+    color: var(--roxo);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 0 0 1.5rem 1.5rem;
+    width: 100%;
+}
+
+.conteudo > p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    max-height: 3rem;
+    min-height: 3rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.estrelas>button{
+    background-color: transparent;
+    border: none;
+}
+
+.marcada{
+    color: var(--roxo);
+}
+
+
+/* RESPONSIVIDADE */

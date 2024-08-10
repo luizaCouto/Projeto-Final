@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+:root{
+    --roxo: #610588;
+    --transparente-escuro: #61058898;
+    --claro-roxo: #E7CDF3;
+    --transparente-roxo: #E7CDF398;
+    --branco: #F2F2F2;
+}
+
+/* HEADER */
+header{
+    display: flex;
+    width: 100%;
+    height: 4rem; /*16px = 1rem*/
+    justify-content: space-between;
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-weight: 500;
+    align-items: center;
+}
+
+header > h1{
+    margin-left: 2rem;
+}
+
+header > ul > li{
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.link-pagina{
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+/* BODY */
+body{
+    background-image: url("./imagens/fundoMeuCinema.png");
+    background-size: fixed;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-weight: 500;
+    align-items: center;
+}
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 425px){
+    header > h1{
+        font-size: large;
+        margin-left: 1rem;
+    }
+    .link-pagina{
+        font-size: 0.9rem;
+        margin-right: 1rem;
+    }
+}
